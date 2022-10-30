@@ -1,2 +1,2 @@
 local chests = peripheral.getNames()
-print(chests[0])
+print(chests[1])
