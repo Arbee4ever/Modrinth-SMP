@@ -1,2 +1,4 @@
 local chests = peripheral.getNames()
-print(chests[1])
+for _, inv in pairs(chests) do
+	print(inv)
+end
